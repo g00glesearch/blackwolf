@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>雾都新闻搜索</title>
+<style>
+/* 重置样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+/* 搜索框样式 */
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #357ae8;
+}
+
+/* 搜索结果容器 */
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* 每条搜索结果样式 */
+.result {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.result h2 {
+    font-size: 18px;
+    color: #1a0dab;
+    margin-bottom: 5px;
+}
+
+.result .meta {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.result p {
+    font-size: 14px;
+    color: #333;
+}
+
+.result .source {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* 手机响应式 */
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+    .search-bar input[type="text"], .search-bar button {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    .result h2 {
+        font-size: 16px;
+    }
+    .result p {
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- 搜索框 -->
+<div class="search-bar">
+    <input type="text" placeholder="搜索新闻…">
+    <button>搜索</button>
+</div>
+
+<!-- 搜索结果 -->
+<div class="search-container">
+
+<div class="result">
+    <h2>
+<a href="雾庄区惊现尸体.html">雾庄区惊现尸体</a>
+</h2>
+    <div class="meta">2026年3月24日 06:15 AM</div>
+    <p>凌晨雾庄区森林边缘发现一具男子尸体，疑似近期从马来西亚越狱的黑狼逃犯。警方已封锁现场，展开全面调查。</p>
+    <div class="source">来源：新加坡晨报（Singapore Morning Herald）</div>
+</div>
+
+<div class="result">
+    <h2>
+<a href="疑似逃犯遇害.html">疑似逃犯遇害</a>
+</h2>
+    <div class="meta">2026年3月24日 07:00 AM</div>
+    <p>黑狼逃犯尸体被发现于雾庄林区，警方表示曾掌握其可能逃往此地情报。现场未见争斗痕迹，死因疑似枪击。调查人员正分析弹道及调取周边监控，以还原事件经过。</p>
+    <div class="source">来源：雾都调查周刊（The Mist City Investigative）</div>
+</div>
+
+<div class="result">
+    <h2>
+<a href="枪击死亡.html">枪击死亡？</a>
+</h2>
+    <div class="meta">2026年3月24日 05:45 AM</div>
+    <p>雾庄区发现一名男子死亡，疑似枪击身亡，死者疑为马来西亚越狱逃犯黑狼。警方已调取监控和弹道证据，案件仍在调查中。</p>
+    <div class="source">来源：雾都快报（Mist City Express）</div>
+</div>
+
+<div class="result">
+    <h2>
+<a href="尸体地点接近吴家雾庄.html">尸体地点接近吴家雾庄</a>
+</h2>
+    <div class="meta">2026年3月24日 06:50 AM</div>
+    <p>黑狼逃犯尸体在雾庄林区被发现，疑似枪击。尸体靠近吴氏集团私人别墅外围，警方正勘查弹道痕迹并调取监控。事件引发媒体和公众关注。</p>
+    <div class="source">来源：雾都今日（Mist City Today）</div>
+</div>
+
+</div>
+
+</body>
+</html>
